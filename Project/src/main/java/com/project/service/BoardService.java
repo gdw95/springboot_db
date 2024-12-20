@@ -23,3 +23,5 @@ public class BoardService {
 	}
 
 }
+
+//주소창으로 h2-콘솔 들어가서 select * from board

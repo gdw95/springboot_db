@@ -36,6 +36,6 @@ public class Board {
 	private String writer;
 	@Temporal(TemporalType.TIMESTAMP)
 	@Builder.Default
-	@Column(columnDefinition="titmestamp default current_timestamp")
+	@Column(columnDefinition="timestamp default current_timestamp")
 	private Date createDate = new Date();
 }
